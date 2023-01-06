@@ -3,6 +3,7 @@
 
 在main.mm文件中找到main函数,指定 macho文件路径和存储路径，指定要搜索的汇编：
 
+```
 int main(int argc, const char * argv[])
 {
     //原文件路径
@@ -27,3 +28,4 @@ int main(int argc, const char * argv[])
     
     return 0;
 }
+```
